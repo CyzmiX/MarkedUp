@@ -1,7 +1,5 @@
 <script>
-	let name = 'CyzmiX'
 	let doc = ''
-	let show = false
 	import { marked } from 'marked'
 </script>
 
