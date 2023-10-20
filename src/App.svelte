@@ -53,4 +53,8 @@
 		padding: 12px 20px;
 		box-sizing: border-box;
 	}
+
+	main {
+		background-color: #121212;
+	}
 </style>
