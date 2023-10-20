@@ -6,7 +6,7 @@
 </script>
 
 <main>
-	<textarea bind:value={doc}/>
+	<textarea class="language-markdown" bind:value={doc}/>
 	<h3>Preview</h3>
 	<iframe title="main" srcdoc={`<pre><code class="language-markdown">${marked.parse(doc)}</code></pre>`}></iframe>
 
