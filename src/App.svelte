@@ -15,7 +15,7 @@
 
 <style>
 	textarea {
-		color: black;
+		color: white;
 		width: 100%;
 		height: 150px;
 		padding: 12px 20px;
@@ -38,7 +38,7 @@
 		background-color: rgb(200, 200, 215);
 		border: 1.5px solid rgb(38, 33, 33);
 		border-radius: 10px;
-		color: black;
+		color: white;
 
 		transition: border-radius 0.35s;
 	}
@@ -52,9 +52,10 @@
 		height: 150px;
 		padding: 12px 20px;
 		box-sizing: border-box;
+		color: white;
 	}
 
-	main {
+	* {
 		background-color: #121212;
 	}
 </style>
