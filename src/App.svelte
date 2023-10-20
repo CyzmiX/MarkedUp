@@ -4,7 +4,7 @@
 </script>
 
 <main>
-	<textarea on:change={(e) => doc = e.target.value} />
+	<textarea bind:value={doc}/>
 	<h3>Preview</h3>
 	<iframe title="main" srcdoc={marked.parse(doc)}></iframe>
 
