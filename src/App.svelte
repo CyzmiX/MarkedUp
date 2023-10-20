@@ -1,12 +1,14 @@
 <script>
 	let doc = ''
 	import { marked } from 'marked'
+	import './prism.js'
+	import './prism.css'
 </script>
 
 <main>
 	<textarea bind:value={doc}/>
 	<h3>Preview</h3>
-	<iframe title="main" srcdoc={marked.parse(doc)}></iframe>
+	<iframe title="main" srcdoc={`<pre><code class="language-markdown">${marked.parse(doc)}</code></pre>`}></iframe>
 
 	<button on:click={() => { 
 		navigator.clipboard.writeText(marked.parse(doc)) 
